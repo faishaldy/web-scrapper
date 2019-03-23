@@ -4,6 +4,7 @@
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"lib": ["es2017", "dom"],
+		"skipLibCheck": true,
 		"outDir": "dist",
 		"rootDir": "src",
 		"sourceMap": true,
@@ -16,7 +17,7 @@
 		"experimentalDecorators": true,
 		"alwaysStrict": true,
 		"strict": true,
-		// "strictBindCallApply": true,
+		"strictBindCallApply": true,
 		"strictFunctionTypes": true,
 		"strictNullChecks": true,
 		"strictPropertyInitialization": true
